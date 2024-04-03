@@ -19,14 +19,14 @@ function AutoComplete({
         words.length
           ? 'flex flex-col justify-start items-start rounded'
           : 'hidden',
-        'absolute top-[51px] left-0 bg-sky-500 text-black p-1 w-[400px]',
+        'absolute top-[51px] left-0 bg-neutral-300 text-black p-1 w-[400px]',
       )}
     >
       {words.map((item, index) => (
         <li
           className={twMerge(
             /* 'dark:odd:bg-neutral-200 dark:even:bg-neutral-300 w-full cursor-pointer', */
-            wordIndexSelected === index ? 'dark:bg-sky-400' : '',
+            wordIndexSelected === index ? 'dark:bg-sky-500' : '',
           )}
           key={v4()}
         >
