@@ -1,0 +1,18 @@
+html,
+body {
+  background-color: transparent;
+}
+
+#topbar,
+#footer {
+  display: none;
+}
+
+#root {
+  background-color: transparent;
+}
+
+#main {
+  background-color: transparent;
+  page-break-before: always;
+}
